@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(119, 223, 223);
+}
+h1{
+    color: seagreen;
+    text-decoration: underline;
+    margin: 0 0;
+}
+h3{
+    text-decoration: underline;
+    color: seagreen;
+    margin: 0;
+    display: inline-block;
+}
+hr{
+    border: 6px dotted grey;
+    width: 8%;
+    border-top-width: 0;
+}
+.Image{
+    border-radius: 100%;
+}
+table{
+    border-width: 2px;
+    border-color: white;
+    table-layout: auto;
+}
+.table{
+    border: 1px none grey;
+}
+th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.Objective{
+    text-indent: 8%;
+}
