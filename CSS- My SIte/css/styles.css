@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-color: #B9F3FC;
+}
+h1{
+    margin-block: 0px;
+    margin-top: 100px;
+    font-family: cursive;
+}
+h3{
+    text-decoration-color: green;
+    text-size-adjust: 20px;
+}
+div{
+    padding: 20px;
+}
+#heading{
+    text-align: center;
+}
+/*
+.clouds{
+    background: #B9F3FC url("cloud.png") repeat-x scroll top;
+}*/
+.topContainer{
+    background-color: #B9F3FC;
+}
+.right{
+    position: absolute;
+    right: 0;
+}
+.margin{
+    margin-left: 100px;
+    display: inline-block;
+}
+.right-margin{
+    position: absolute;
+    right: 160px;
+}
+.right-margin-middle{
+    position: absolute;
+    right: 80px;
+}
+.img-center{
+    margin: 0 auto;
+    display: block;
+}
+#position{
+    text-align: center;
+    font-family: cursive;
+}
+.middleContainer{
+    text-align: center;
+
+}
+.bottomContainer{
+    text-align: center;
+    font-family: cursive;
+}
