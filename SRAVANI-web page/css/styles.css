@@ -1,0 +1,29 @@
+h1{
+    background-color: #E5D1FA;
+    margin: 0;
+}
+body{
+    color: black;
+    background-color: #ECF2FF;
+    margin: 0;
+}
+h3{
+   background-color: #E3DFFD;
+}
+hr{
+    border: 1px solid grey;
+    border-top-style: solid;
+    border-style: none;
+}
+th{
+    border-style: solid;
+}
+td{
+    border-style: solid;
+}
+table{
+    border-collapse: collapse;
+}
+#main{
+    border-style: none;
+}
