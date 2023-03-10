@@ -3,22 +3,34 @@ body{
     background-color: #B9F3FC;
     text-align: center;
     font-family: 'Merriweather', serif;
+    
 }
 h1{
     margin-block: 0px;
     font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    color: #66BFBF;
+    line-height: 2;
 }
 h2{
-    
+    text-decoration-color: green;
+    text-size-adjust: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;  
+    color: #66BFBF;
+    font-weight: normal;
 }
 h3{
     text-decoration-color: green;
     text-size-adjust: 20px;
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
+
 #heading{
     text-align: center;
     display: block;
+    padding-top: 100px;
 }
 /*
 .clouds{
@@ -30,7 +42,6 @@ h3{
 }
 #position{
     text-align: center;
-    
 }
 .middleContainer{
     text-align: center;
@@ -42,5 +53,37 @@ h3{
 .top-cloud{
     position: absolute;
     right: 15%;
+    top: 150px;
     display: block;
 }
+.footer-link{
+    color: #11999E;
+}
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.java-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.AWS-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.design-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+/*
+.java-skill-description{
+clear: left;
+}
+.AWS-skill-description{
+clear: right;
+}*/
