@@ -1,15 +1,14 @@
 body{
     margin: 0px 0px;
-    background-color: #B9F3FC;
+    background-color: #D1FFF3;
     text-align: center;
     font-family: 'Merriweather', serif;
-    
 }
 h1{
     margin-block: 0px;
     font-family: 'Sacramento', cursive;
     font-size: 3.5rem;
-    color: #66BFBF;
+    color: #609EA2;
     line-height: 2;
 }
 h2{
@@ -17,14 +16,14 @@ h2{
     text-size-adjust: 20px;
     font-family: 'Montserrat', sans-serif; 
     font-size: 2rem;  
-    color: #66BFBF;
+    color: #609EA2;
     font-weight: normal;
 }
 h3{
     text-decoration-color: green;
-    text-size-adjust: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #3C84AB;
+    line-height: 2;
 }
 
 #heading{
@@ -37,7 +36,7 @@ h3{
     background: #B9F3FC url("cloud.png") repeat-x scroll top;
 }*/
 .topContainer{
-    background-color: #B9F3FC;
+    background-color: #D1FFF3;
     padding-top: 100px;
 }
 #position{
@@ -49,15 +48,22 @@ h3{
 }
 .bottom-cloud{
     position: absolute;
+    display: block;
+    position: absolute;
+    left: 300px;
+    width: 12%;
+    height: auto;
 }
 .top-cloud{
     position: absolute;
     right: 15%;
     top: 150px;
     display: block;
+    width: 12%;
+    height: auto;
 }
 .footer-link{
-    color: #11999E;
+    color: #3C84AB;
 }
 .skill-row{
     margin: 100px auto;
@@ -87,3 +93,8 @@ clear: left;
 .AWS-skill-description{
 clear: right;
 }*/
+.profile{
+    margin: 100px auto;
+    width: 50%;
+    line-height: 2;
+}
