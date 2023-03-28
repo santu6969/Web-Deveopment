@@ -1,14 +1,15 @@
 body{
     margin: 0px 0px;
-    background-color: #D1FFF3;
+    background-color: #72e2ee;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: rgb(39, 37, 37);
 }
 h1{
     margin-block: 0px;
     font-family: 'Sacramento', cursive;
     font-size: 3.5rem;
-    color: #609EA2;
+    color: #383b3b;
     line-height: 2;
 }
 h2{
@@ -16,13 +17,13 @@ h2{
     text-size-adjust: 20px;
     font-family: 'Montserrat', sans-serif; 
     font-size: 2rem;  
-    color: #609EA2;
+    color: #111919;
     font-weight: normal;
 }
 h3{
     text-decoration-color: green;
     font-family: 'Montserrat', sans-serif;
-    color: #3C84AB;
+    color: #111919;
     line-height: 2;
 }
 
@@ -31,13 +32,40 @@ h3{
     display: block;
     padding-top: 100px;
 }
+
+hr{
+    border: dotted grey 6px;
+    border-width: 10px;
+    border-bottom: none;
+    width: 5%;
+    margin: auto;
+}
+
+p{
+    line-height: 2;
+    width: 50%;
+    margin: 30px auto;
+}
+a{
+    color: #49a1a1;
+    font-family:'Montserrat', sans-serif; 
+    margin: 10px 20px;
+
+}
+
+a:hover{
+    color: #eaf6f6;
+
+}
+
 /*
 .clouds{
     background: #B9F3FC url("cloud.png") repeat-x scroll top;
 }*/
 .topContainer{
-    background-color: #D1FFF3;
+    background-color: #72e2ee;
     padding-top: 100px;
+    padding-bottom: 60px;
 }
 #position{
     text-align: center;
@@ -63,10 +91,10 @@ h3{
     height: auto;
 }
 .footer-link{
-    color: #3C84AB;
+    color: #111919;
 }
 .skill-row{
-    margin: 100px auto;
+    margin: 80px auto;
     width: 50%;
     text-align: left;
     line-height: 2;
@@ -75,6 +103,9 @@ h3{
     width: 25%;
     float: left;
     margin-right: 30px;
+}
+.floatRight{
+    float: right;
 }
 .AWS-img{
     width: 25%;
@@ -98,3 +129,35 @@ clear: right;
     width: 50%;
     line-height: 2;
 }
+
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #ffffff;
+    font-size: 16px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #b3dcf5;
+    background-image: -webkit-linear-gradient(top, #b3dcf5, #90caf0);
+    background-image: -moz-linear-gradient(top, #b3dcf5, #90caf0);
+    background-image: -ms-linear-gradient(top, #b3dcf5, #90caf0);
+    background-image: -o-linear-gradient(top, #b3dcf5, #90caf0);
+    background-image: linear-gradient(to bottom, #b3dcf5, #90caf0);
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color: #57cade;
+    padding: 50px 0 20px;
+}
+.copy-right{
+    margin: 0 auto;
+    color: #eaf6f6;
+    font-size: .75rem;
+    padding: 20px 0 20px;
+  }
