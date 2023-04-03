@@ -4,14 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/0a15de171e.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+
+<!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+
+<!-- Style Sheet -->
+<link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
   <!-- Nav bar -->
@@ -27,11 +36,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
-            <li class=navbar-item>
+            <!-- <li class=navbar-item>
               <a class=nav-link href="">Home</a>
-            </li>
+            </li> -->
             <li class=navbar-item>
-              <a class=nav-link href=""> Contact </a>
+              <a class="nav-link" href=""> Contact </a>
             </li>
             <li class=navbar-item>
               <a class=nav-link href="">Pricing</a>
@@ -51,11 +60,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple fa-lg"></i> Download </button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play fa-lg"></i> Download </button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
     </div>
@@ -64,24 +73,36 @@
 
   <!-- Features -->
   <section id="features">
+<div class="row">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+  <div class="col-lg-4 col-sm-12 feature-box">
+    <i class="fa-solid fa-circle-check fa-2xl fa-fade feature-icon" style="color: #ff4c68;"></i>
+    <h3 class="feature-headings"> Easy to use.</h3>
+    <p class="feature-description">So easy to use, even your dog could do it.</p>
+  </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+  <div class="col-lg-4 col-sm-12 feature-box">
+    <i class="fa-solid fa-bullseye fa-2xl fa-fade feature-icon" style="color: #ff4c68;"></i>
+    <h3 class="feature-headings">Elite Clientele</h3>
+    <p class="feature-description">We have all the dogs, the greatest dogs.</p>
+  </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+  <div class="col-lg-4 col-sm-12 feature-box">
+    <i class="fa-solid fa-heart fa-2xl fa-fade feature-icon" style="color: #ff4c68;"></i>
+    <h3 class="feature-headings"> Guaranteed to work.</h3>
+    <p class="feature-description">Find the love of your dog's life or your money back.</p>
+  </div>
 
-  </section>
+</div>
+
+</section>
 
 
-  <!-- Testimonials -->
+<!-- Testimonials -->
 
-  <section id="testimonials">
+<section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+  <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
     <img src="images/dog-img.jpg" alt="dog-profile">
     <em>Pebbles, New York</em>
 
